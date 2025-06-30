@@ -1,0 +1,11 @@
+[01m[K/home/ubuntu/rover_ws/src/halleffect_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::[01;32m[KjointCallback[m[K(const sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/home/ubuntu/rover_ws/src/halleffect_controller/src/simple_controller.cpp:135:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kodom_pub_[m[K’
+  135 |     transform_stamped_.header.stamp = get_clock()->now()
+      |                                                         [01;31m[K^[m[K
+      |                                                         [32m[K;[m[K
+  136 | 
+  137 |     [32m[Kodom_pub_[m[K->publish(odom_msg_);
+      |     [32m[K~~~~~~~~~[m[K                                            
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

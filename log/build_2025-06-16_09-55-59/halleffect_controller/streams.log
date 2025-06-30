@@ -1,0 +1,36 @@
+[0.117s] Invoking command in '/home/ubuntu/rover_ws/build/halleffect_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16
+[1.096s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[8.718s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[10.461s] [100%] Built target simple_controller
+[10.467s] Invoked command in '/home/ubuntu/rover_ws/build/halleffect_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16
+[10.535s] Invoking command in '/home/ubuntu/rover_ws/build/halleffect_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/halleffect_controller
+[10.564s] -- Install configuration: ""
+[10.564s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include
+[10.564s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller
+[10.565s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller/simple_controller.hpp
+[10.581s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/lib/halleffect_controller/simple_controller
+[10.595s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/halleffect_controller/lib/halleffect_controller/simple_controller" to ""
+[10.595s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config
+[10.595s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/gz_bridge.yaml
+[10.596s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/joy_config.yaml
+[10.596s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/halleffect_controller.yaml
+[10.596s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/joy_teleop.yaml
+[10.596s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch
+[10.596s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch/joystick_teleop.launch.py
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch/controller.launch.py
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/package_run_dependencies/halleffect_controller
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/parent_prefix_path/halleffect_controller
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.sh
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.dsv
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.sh
+[10.597s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.dsv
+[10.598s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.bash
+[10.598s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.sh
+[10.598s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.zsh
+[10.598s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.dsv
+[10.598s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.dsv
+[10.616s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/packages/halleffect_controller
+[10.616s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig.cmake
+[10.616s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig-version.cmake
+[10.617s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.xml
+[10.621s] Invoked command in '/home/ubuntu/rover_ws/build/halleffect_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/halleffect_controller

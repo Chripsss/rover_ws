@@ -1,0 +1,42 @@
+[0.053s] Invoking command in '/home/ubuntu/rover_ws/src/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/src/install/rover_localization
+[1.861s] -- The C compiler identification is GNU 13.3.0
+[4.451s] -- The CXX compiler identification is GNU 13.3.0
+[4.730s] -- Detecting C compiler ABI info
+[5.554s] -- Detecting C compiler ABI info - done
+[5.559s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.560s] -- Detecting C compile features
+[5.560s] -- Detecting C compile features - done
+[5.625s] -- Detecting CXX compiler ABI info
+[5.762s] -- Detecting CXX compiler ABI info - done
+[5.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.768s] -- Detecting CXX compile features
+[5.768s] -- Detecting CXX compile features - done
+[5.946s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.168s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.589s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.040s] -- Added test 'lint_cmake' to check CMake code style
+[7.042s] -- Added test 'xmllint' to check XML markup files
+[7.059s] -- Configuring done (7.0s)
+[7.061s] -- Generating done (0.0s)
+[7.062s] -- Build files have been written to: /home/ubuntu/rover_ws/src/build/rover_localization
+[7.065s] Invoked command in '/home/ubuntu/rover_ws/src/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/src/install/rover_localization
+[7.066s] Invoking command in '/home/ubuntu/rover_ws/src/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/src/build/rover_localization -- -j16 -l16
+[7.090s] Invoked command in '/home/ubuntu/rover_ws/src/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/src/build/rover_localization -- -j16 -l16
+[7.095s] Invoking command in '/home/ubuntu/rover_ws/src/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/src/build/rover_localization
+[7.100s] -- Install configuration: ""
+[7.100s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+[7.100s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+[7.100s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+[7.100s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+[7.100s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/path.sh
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/path.dsv
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.bash
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.sh
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.zsh
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.dsv
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/package.dsv
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+[7.101s] -- Installing: /home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/package.xml
+[7.102s] Invoked command in '/home/ubuntu/rover_ws/src/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/src/build/rover_localization

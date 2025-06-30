@@ -1,0 +1,11 @@
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/uninstall.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/halleffect_controller_uninstall.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/simple_controller.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/noisy_controller.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/test.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/edit_cache.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/list_install_components.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/install.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/install/local.dir
+/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles/install/strip.dir

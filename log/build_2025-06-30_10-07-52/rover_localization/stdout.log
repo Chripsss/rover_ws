@@ -1,0 +1,27 @@
+[ 50%] Built target kalman_filter
+[100%] Built target imu_republisher
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization/kalman_filter.hpp
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/imu_republisher
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.py
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config
+-- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config/ekf.yaml
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.bash
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.zsh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.xml

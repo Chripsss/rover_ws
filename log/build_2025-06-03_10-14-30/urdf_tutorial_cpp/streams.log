@@ -1,0 +1,26 @@
+[0.383s] Invoking command in '/home/ubuntu/rover_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/urdf_tutorial_cpp -- -j16 -l16
+[2.574s] [100%] Built target urdf_tutorial_cpp
+[2.657s] Invoked command in '/home/ubuntu/rover_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/urdf_tutorial_cpp -- -j16 -l16
+[2.740s] Invoking command in '/home/ubuntu/rover_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/urdf_tutorial_cpp
+[2.796s] -- Install configuration: ""
+[2.804s] -- Execute custom install script
+[2.843s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp
+[2.940s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch/launch.py
+[2.955s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.rviz
+[2.955s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.urdf.xml
+[2.956s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial_cpp
+[2.956s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial_cpp
+[2.957s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.sh
+[2.957s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.dsv
+[2.957s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.sh
+[2.957s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.dsv
+[2.958s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.bash
+[2.958s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.sh
+[2.958s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.zsh
+[2.958s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.dsv
+[2.958s] -- Symlinking: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.dsv
+[2.987s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/packages/urdf_tutorial_cpp
+[2.988s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig.cmake
+[2.988s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig-version.cmake
+[2.988s] -- Up-to-date symlink: /home/ubuntu/rover_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.xml
+[2.996s] Invoked command in '/home/ubuntu/rover_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/urdf_tutorial_cpp

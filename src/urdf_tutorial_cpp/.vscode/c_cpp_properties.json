@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubuntu/rover_ws/install/halleffect_controller/include/**",
+        "/home/ubuntu/ros2_ws/install/mecanum_drive_controller/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/ubuntu/rover_ws/src/halleffect_controller/include/**",
+        "/home/ubuntu/rover_ws/src/rover_description/include/**",
+        "/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

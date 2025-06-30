@@ -1,0 +1,47 @@
+[0.007s] Invoking command in '/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp -- -j16 -l16
+[0.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.162s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.179s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.184s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.255s] -- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.295s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found tf2_geometry_msgs: 0.36.10 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.432s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.433s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.497s] -- Configuring done (0.5s)
+[0.505s] -- Generating done (0.0s)
+[0.508s] -- Build files have been written to: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp
+[0.538s] [ 50%] [32mBuilding CXX object CMakeFiles/urdf_tutorial_cpp.dir/src/urdf_tutorial.cpp.o[0m
+[3.872s] [100%] [32m[1mLinking CXX executable urdf_tutorial_cpp[0m
+[4.002s] [100%] Built target urdf_tutorial_cpp
+[4.009s] Invoked command in '/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp -- -j16 -l16
+[4.015s] Invoking command in '/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp
+[4.020s] -- Install configuration: ""
+[4.020s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp
+[4.021s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp" to ""
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch/launch.py
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.urdf.xml
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.rviz
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial_cpp
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial_cpp
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.sh
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.dsv
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.sh
+[4.021s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.dsv
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.bash
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.sh
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.zsh
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.dsv
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.dsv
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/ament_index/resource_index/packages/urdf_tutorial_cpp
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig.cmake
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig-version.cmake
+[4.022s] -- Installing: /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.xml
+[4.023s] Invoked command in '/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/src/urdf_tutorial_cpp/build/urdf_tutorial_cpp

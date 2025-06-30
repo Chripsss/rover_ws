@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/ubuntu/rover_ws/src/urdf_tutorial_cpp/launch": No such file or
+  directory.
+
+[0m

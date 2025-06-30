@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (halleffect_controller) JobQueued: {'identifier': 'halleffect_controller', 'dependencies': OrderedDict()}
+[0.000567] (rover_description) JobQueued: {'identifier': 'rover_description', 'dependencies': OrderedDict()}
+[0.000581] (halleffect_controller) JobStarted: {'identifier': 'halleffect_controller'}
+[0.099949] (-) TimerEvent: {}
+[0.161171] (rover_description) JobStarted: {'identifier': 'rover_description'}
+[0.173082] (halleffect_controller) JobProgress: {'identifier': 'halleffect_controller', 'progress': 'cmake'}
+[0.200079] (-) TimerEvent: {}
+[0.300581] (-) TimerEvent: {}
+[0.353761] (halleffect_controller) JobProgress: {'identifier': 'halleffect_controller', 'progress': 'build'}
+[0.355971] (halleffect_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rover_ws/build/halleffect_controller', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rover_ws/build/halleffect_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/mecanum_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2520', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-MS-7D18:@/tmp/.ICE-unix/2477,unix/ubuntu-MS-7D18:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e92380a3_4e8c_49f3_8748_51fc730a0bcd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:660251f1-28e3-4112-9109-10b157be7b6b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/rover_ws/build/halleffect_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.400756] (-) TimerEvent: {}
+[0.437340] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'cmake'}
+[0.482126] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'build'}
+[0.483480] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rover_ws/build/rover_description', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rover_ws/build/rover_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/mecanum_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2520', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-MS-7D18:@/tmp/.ICE-unix/2477,unix/ubuntu-MS-7D18:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e92380a3_4e8c_49f3_8748_51fc730a0bcd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:660251f1-28e3-4112-9109-10b157be7b6b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/rover_ws/build/rover_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.500959] (-) TimerEvent: {}
+[0.601499] (-) TimerEvent: {}
+[0.702053] (-) TimerEvent: {}
+[0.802675] (-) TimerEvent: {}
+[0.903250] (-) TimerEvent: {}
+[1.003818] (-) TimerEvent: {}
+[1.104424] (-) TimerEvent: {}
+[1.205003] (-) TimerEvent: {}
+[1.305594] (-) TimerEvent: {}
+[1.406221] (-) TimerEvent: {}
+[1.506757] (-) TimerEvent: {}
+[1.598084] (rover_description) CommandEnded: {'returncode': 0}
+[1.606871] (-) TimerEvent: {}
+[1.677177] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'install'}
+[1.698878] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/rover_ws/build/rover_description'], 'cwd': '/home/ubuntu/rover_ws/build/rover_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/mecanum_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2520', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-MS-7D18:@/tmp/.ICE-unix/2477,unix/ubuntu-MS-7D18:/tmp/.ICE-unix/2477', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e92380a3_4e8c_49f3_8748_51fc730a0bcd', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:660251f1-28e3-4112-9109-10b157be7b6b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/rover_ws/build/rover_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.706964] (-) TimerEvent: {}
+[1.778470] (rover_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.807108] (-) TimerEvent: {}
+[1.907593] (-) TimerEvent: {}
+[2.008189] (-) TimerEvent: {}
+[2.108637] (-) TimerEvent: {}
+[2.208967] (-) TimerEvent: {}
+[2.284394] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes\n'}
+[2.285259] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/wheel_right_link.STL\n'}
+[2.285766] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/wheel_left_link.STL\n'}
+[2.286146] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/base_link.STL\n'}
+[2.286379] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/imu_link.STL\n'}
+[2.286599] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/caster_front_link.STL\n'}
+[2.286901] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/caster_rear_link.STL\n'}
+[2.287118] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf\n'}
+[2.287323] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf/rover.urdf.xacro\n'}
+[2.287527] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description\n'}
+[2.287763] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description\n'}
+[2.287973] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh\n'}
+[2.288181] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv\n'}
+[2.288371] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/path.sh\n'}
+[2.288410] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/path.dsv\n'}
+[2.288448] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.bash\n'}
+[2.288488] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.sh\n'}
+[2.288526] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.zsh\n'}
+[2.288564] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.dsv\n'}
+[2.288603] (rover_description) StdoutLine: {'line': b'-- Installing: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/package.dsv\n'}
+[2.309146] (-) TimerEvent: {}
+[2.311430] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description\n'}
+[2.312224] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake\n'}
+[2.312568] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake\n'}
+[2.312868] (rover_description) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/package.xml\n'}
+[2.316662] (rover_description) CommandEnded: {'returncode': 0}
+[2.409422] (-) TimerEvent: {}
+[2.509993] (-) TimerEvent: {}
+[2.610585] (-) TimerEvent: {}
+[2.711908] (-) TimerEvent: {}
+[2.727504] (rover_description) JobEnded: {'identifier': 'rover_description', 'rc': 0}
+[2.812009] (-) TimerEvent: {}
+[2.912377] (-) TimerEvent: {}
+[3.012998] (-) TimerEvent: {}
+[3.113490] (-) TimerEvent: {}
+[3.214039] (-) TimerEvent: {}
+[3.314578] (-) TimerEvent: {}
+[3.370035] (halleffect_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.414734] (-) TimerEvent: {}
+[3.515213] (-) TimerEvent: {}
+[3.616019] (-) TimerEvent: {}
+[3.716426] (-) TimerEvent: {}
+[3.816703] (-) TimerEvent: {}
+[3.917204] (-) TimerEvent: {}
+[4.017702] (-) TimerEvent: {}
+[4.118098] (-) TimerEvent: {}
+[4.218360] (-) TimerEvent: {}
+[4.318944] (-) TimerEvent: {}
+[4.419434] (-) TimerEvent: {}
+[4.519947] (-) TimerEvent: {}
+[4.620689] (-) TimerEvent: {}
+[4.721296] (-) TimerEvent: {}
+[4.821848] (-) TimerEvent: {}
+[4.922366] (-) TimerEvent: {}
+[4.958709] (halleffect_controller) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[4.992021] (halleffect_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.022538] (-) TimerEvent: {}
+[5.123293] (-) TimerEvent: {}
+[5.223994] (-) TimerEvent: {}
+[5.324492] (-) TimerEvent: {}
+[5.425073] (-) TimerEvent: {}
+[5.525670] (-) TimerEvent: {}
+[5.626280] (-) TimerEvent: {}
+[5.726778] (-) TimerEvent: {}
+[5.827319] (-) TimerEvent: {}
+[5.927846] (-) TimerEvent: {}
+[6.028351] (-) TimerEvent: {}
+[6.071669] (halleffect_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.128490] (-) TimerEvent: {}
+[6.228993] (-) TimerEvent: {}
+[6.329515] (-) TimerEvent: {}
+[6.430117] (-) TimerEvent: {}
+[6.469227] (halleffect_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.530260] (-) TimerEvent: {}
+[6.630818] (-) TimerEvent: {}
+[6.731360] (-) TimerEvent: {}
+[6.831970] (-) TimerEvent: {}
+[6.932515] (-) TimerEvent: {}
+[7.019860] (halleffect_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.032710] (-) TimerEvent: {}
+[7.133231] (-) TimerEvent: {}
+[7.233789] (-) TimerEvent: {}
+[7.334354] (-) TimerEvent: {}
+[7.411528] (halleffect_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.434531] (-) TimerEvent: {}
+[7.535172] (-) TimerEvent: {}
+[7.635692] (-) TimerEvent: {}
+[7.736166] (-) TimerEvent: {}
+[7.836728] (-) TimerEvent: {}
+[7.937290] (-) TimerEvent: {}
+[8.037865] (-) TimerEvent: {}
+[8.138437] (-) TimerEvent: {}
+[8.239053] (-) TimerEvent: {}
+[8.339669] (-) TimerEvent: {}
+[8.440251] (-) TimerEvent: {}
+[8.540766] (-) TimerEvent: {}
+[8.573520] (halleffect_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[8.640973] (-) TimerEvent: {}
+[8.702238] (halleffect_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.741175] (-) TimerEvent: {}
+[8.841756] (-) TimerEvent: {}
+[8.942324] (-) TimerEvent: {}
+[9.042898] (-) TimerEvent: {}
+[9.143434] (-) TimerEvent: {}
+[9.243976] (-) TimerEvent: {}
+[9.344537] (-) TimerEvent: {}
+[9.445071] (-) TimerEvent: {}
+[9.545416] (-) TimerEvent: {}
+[9.553499] (halleffect_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.645581] (-) TimerEvent: {}
+[9.746129] (-) TimerEvent: {}
+[9.846660] (-) TimerEvent: {}
+[9.947145] (-) TimerEvent: {}
+[10.047437] (-) TimerEvent: {}
+[10.147955] (-) TimerEvent: {}
+[10.248417] (-) TimerEvent: {}
+[10.348832] (-) TimerEvent: {}
+[10.426484] (halleffect_controller) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[10.448968] (-) TimerEvent: {}
+[10.549461] (-) TimerEvent: {}
+[10.643212] (halleffect_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[10.649662] (-) TimerEvent: {}
+[10.750196] (-) TimerEvent: {}
+[10.850513] (-) TimerEvent: {}
+[10.865324] (halleffect_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[10.950673] (-) TimerEvent: {}
+[11.051185] (-) TimerEvent: {}
+[11.095023] (halleffect_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[11.151339] (-) TimerEvent: {}
+[11.251915] (-) TimerEvent: {}
+[11.352336] (-) TimerEvent: {}
+[11.452612] (-) TimerEvent: {}
+[11.553200] (-) TimerEvent: {}
+[11.653765] (-) TimerEvent: {}
+[11.754335] (-) TimerEvent: {}
+[11.854934] (-) TimerEvent: {}
+[11.949802] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.950468] (halleffect_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/rover_ws/src/halleffect_controller/include\n'}
+[11.950816] (halleffect_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.955025] (-) TimerEvent: {}
+[11.992543] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.993250] (halleffect_controller) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[12.054019] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.055129] (-) TimerEvent: {}
+[12.122960] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[12.155385] (-) TimerEvent: {}
+[12.166966] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.167454] (halleffect_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.230009] (halleffect_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.255570] (-) TimerEvent: {}
+[12.356156] (-) TimerEvent: {}
+[12.422244] (halleffect_controller) StdoutLine: {'line': b'-- Configuring done (9.5s)\n'}
+[12.456342] (-) TimerEvent: {}
+[12.556821] (-) TimerEvent: {}
+[12.657308] (-) TimerEvent: {}
+[12.757884] (-) TimerEvent: {}
+[12.858375] (-) TimerEvent: {}
+[12.958868] (-) TimerEvent: {}
+[13.059294] (-) TimerEvent: {}
+[13.159613] (-) TimerEvent: {}
+[13.260175] (-) TimerEvent: {}
+[13.325079] (halleffect_controller) StdoutLine: {'line': b'-- Generating done (0.6s)\n'}
+[13.332743] (halleffect_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rover_ws/build/halleffect_controller\n'}
+[13.360348] (-) TimerEvent: {}
+[13.460955] (-) TimerEvent: {}
+[13.486066] (halleffect_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o\x1b[0m\n'}
+[13.561145] (-) TimerEvent: {}
+[13.661709] (-) TimerEvent: {}
+[13.762228] (-) TimerEvent: {}
+[13.862725] (-) TimerEvent: {}
+[13.963209] (-) TimerEvent: {}
+[14.063723] (-) TimerEvent: {}
+[14.164206] (-) TimerEvent: {}
+[14.264711] (-) TimerEvent: {}
+[14.365211] (-) TimerEvent: {}
+[14.465770] (-) TimerEvent: {}
+[14.566332] (-) TimerEvent: {}
+[14.666848] (-) TimerEvent: {}
+[14.767329] (-) TimerEvent: {}
+[14.867861] (-) TimerEvent: {}
+[14.968354] (-) TimerEvent: {}
+[15.068945] (-) TimerEvent: {}
+[15.169446] (-) TimerEvent: {}
+[15.270104] (-) TimerEvent: {}
+[15.370600] (-) TimerEvent: {}
+[15.471167] (-) TimerEvent: {}
+[15.571740] (-) TimerEvent: {}
+[15.672308] (-) TimerEvent: {}
+[15.772965] (-) TimerEvent: {}
+[15.873565] (-) TimerEvent: {}
+[15.974186] (-) TimerEvent: {}
+[16.074738] (-) TimerEvent: {}
+[16.175403] (-) TimerEvent: {}
+[16.275939] (-) TimerEvent: {}
+[16.376518] (-) TimerEvent: {}
+[16.477198] (-) TimerEvent: {}
+[16.577723] (-) TimerEvent: {}
+[16.678308] (-) TimerEvent: {}
+[16.778817] (-) TimerEvent: {}
+[16.879308] (-) TimerEvent: {}
+[16.979826] (-) TimerEvent: {}
+[17.080710] (-) TimerEvent: {}
+[17.181266] (-) TimerEvent: {}
+[17.281735] (-) TimerEvent: {}
+[17.382227] (-) TimerEvent: {}
+[17.482735] (-) TimerEvent: {}
+[17.583222] (-) TimerEvent: {}
+[17.683729] (-) TimerEvent: {}
+[17.784214] (-) TimerEvent: {}
+[17.884721] (-) TimerEvent: {}
+[17.985215] (-) TimerEvent: {}
+[18.085730] (-) TimerEvent: {}
+[18.186209] (-) TimerEvent: {}
+[18.286709] (-) TimerEvent: {}
+[18.387249] (-) TimerEvent: {}
+[18.487748] (-) TimerEvent: {}
+[18.588235] (-) TimerEvent: {}
+[18.688762] (-) TimerEvent: {}
+[18.789267] (-) TimerEvent: {}
+[18.889824] (-) TimerEvent: {}
+[18.990313] (-) TimerEvent: {}
+[19.091170] (-) TimerEvent: {}
+[19.191702] (-) TimerEvent: {}
+[19.292190] (-) TimerEvent: {}
+[19.392856] (-) TimerEvent: {}
+[19.493343] (-) TimerEvent: {}
+[19.593865] (-) TimerEvent: {}
+[19.694364] (-) TimerEvent: {}
+[19.794980] (-) TimerEvent: {}
+[19.895728] (-) TimerEvent: {}
+[19.996793] (-) TimerEvent: {}
+[20.097277] (-) TimerEvent: {}
+[20.197737] (-) TimerEvent: {}
+[20.298227] (-) TimerEvent: {}
+[20.398730] (-) TimerEvent: {}
+[20.499213] (-) TimerEvent: {}
+[20.599701] (-) TimerEvent: {}
+[20.700199] (-) TimerEvent: {}
+[20.800711] (-) TimerEvent: {}
+[20.901209] (-) TimerEvent: {}
+[21.001769] (-) TimerEvent: {}
+[21.102323] (-) TimerEvent: {}
+[21.202890] (-) TimerEvent: {}
+[21.303429] (-) TimerEvent: {}
+[21.404063] (-) TimerEvent: {}
+[21.504609] (-) TimerEvent: {}
+[21.605225] (-) TimerEvent: {}
+[21.705808] (-) TimerEvent: {}
+[21.806402] (-) TimerEvent: {}
+[21.906926] (-) TimerEvent: {}
+[22.007241] (-) TimerEvent: {}
+[22.107746] (-) TimerEvent: {}
+[22.208315] (-) TimerEvent: {}
+[22.309036] (-) TimerEvent: {}
+[22.409588] (-) TimerEvent: {}
+[22.510131] (-) TimerEvent: {}
+[22.610785] (-) TimerEvent: {}
+[22.711286] (-) TimerEvent: {}
+[22.811804] (-) TimerEvent: {}
+[22.912313] (-) TimerEvent: {}
+[23.012851] (-) TimerEvent: {}
+[23.113384] (-) TimerEvent: {}
+[23.214274] (-) TimerEvent: {}
+[23.314807] (-) TimerEvent: {}
+[23.415313] (-) TimerEvent: {}
+[23.515899] (-) TimerEvent: {}
+[23.616400] (-) TimerEvent: {}
+[23.716977] (-) TimerEvent: {}
+[23.817468] (-) TimerEvent: {}
+[23.918075] (-) TimerEvent: {}
+[24.018530] (-) TimerEvent: {}
+[24.118866] (-) TimerEvent: {}
+[24.219360] (-) TimerEvent: {}
+[24.319927] (-) TimerEvent: {}
+[24.420431] (-) TimerEvent: {}
+[24.521019] (-) TimerEvent: {}
+[24.621512] (-) TimerEvent: {}
+[24.722027] (-) TimerEvent: {}
+[24.822544] (-) TimerEvent: {}
+[24.923062] (-) TimerEvent: {}
+[25.023558] (-) TimerEvent: {}
+[25.124072] (-) TimerEvent: {}
+[25.224555] (-) TimerEvent: {}
+[25.325068] (-) TimerEvent: {}
+[25.425554] (-) TimerEvent: {}
+[25.526070] (-) TimerEvent: {}
+[25.626572] (-) TimerEvent: {}
+[25.727157] (-) TimerEvent: {}
+[25.827729] (-) TimerEvent: {}
+[25.928318] (-) TimerEvent: {}
+[26.028879] (-) TimerEvent: {}
+[26.125193] (halleffect_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/rover_ws/src/halleffect_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[26.125742] (halleffect_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/rover_ws/src/halleffect_controller/include/halleffect_controller/simple_controller.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/joint_state.hpp: No such file or directory\n'}
+[26.126157] (halleffect_controller) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K<sensor_msgs/msg/joint_state.hpp>\x1b[m\x1b[K\n'}
+[26.126399] (halleffect_controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.126634] (halleffect_controller) StderrLine: {'line': b'compilation terminated.\n'}
+[26.128981] (-) TimerEvent: {}
+[26.132405] (halleffect_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1\n'}
+[26.132576] (halleffect_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2\n'}
+[26.132730] (halleffect_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[26.135014] (halleffect_controller) CommandEnded: {'returncode': 2}
+[26.206784] (halleffect_controller) JobEnded: {'identifier': 'halleffect_controller', 'rc': 2}
+[26.217015] (-) EventReactorShutdown: {}

@@ -1,0 +1,51 @@
+[0.011s] Invoking command in '/home/ubuntu/rover_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_description -- -j16 -l16
+[0.220s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.746s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.903s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.903s] -- Configured cppcheck include dirs: 
+[0.903s] -- Configured cppcheck exclude dirs and/or files: 
+[0.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.950s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.958s] -- Added test 'lint_cmake' to check CMake code style
+[0.980s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.997s] -- Added test 'uncrustify' to check C / C++ code style
+[0.997s] -- Configured uncrustify additional arguments: 
+[0.999s] -- Added test 'xmllint' to check XML markup files
+[1.021s] -- Configuring done (1.0s)
+[1.113s] -- Generating done (0.1s)
+[1.114s] -- Build files have been written to: /home/ubuntu/rover_ws/build/rover_description
+[1.129s] Invoked command in '/home/ubuntu/rover_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_description -- -j16 -l16
+[1.129s] Invoking command in '/home/ubuntu/rover_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_description
+[1.135s] -- Install configuration: ""
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/wheel_right_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/wheel_left_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/base_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/imu_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/caster_front_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/meshes/caster_rear_link.STL
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf/rover.urdf.xacro
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf/rover_gazebo.xacro
+[1.135s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/urdf/rover_ros2_control.xacro
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/launch
+[1.136s] -- Installing: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/launch/gazebo.launch.py
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/launch/display.launch.py
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/rviz
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/rviz/display.rviz
+[1.136s] -- Installing: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/path.sh
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/environment/path.dsv
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.bash
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.sh
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.zsh
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/local_setup.dsv
+[1.136s] -- Installing: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/package.dsv
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[1.136s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[1.136s] -- Installing: /home/ubuntu/rover_ws/install/rover_description/share/rover_description/package.xml
+[1.137s] Invoked command in '/home/ubuntu/rover_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_description

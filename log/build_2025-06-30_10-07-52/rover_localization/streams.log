@@ -1,0 +1,31 @@
+[0.236s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[1.180s] [ 50%] Built target kalman_filter
+[1.183s] [100%] Built target imu_republisher
+[1.320s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[1.354s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization
+[1.583s] -- Install configuration: ""
+[1.583s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include
+[1.583s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization
+[1.583s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization/kalman_filter.hpp
+[1.583s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter
+[1.630s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/imu_republisher
+[1.630s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch
+[1.630s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.py
+[1.630s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config
+[1.630s] -- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config/ekf.yaml
+[1.630s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.sh
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.dsv
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.bash
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.sh
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.zsh
+[1.631s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.dsv
+[1.631s] -- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.dsv
+[1.681s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+[1.681s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+[1.681s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+[1.681s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.xml
+[1.683s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization

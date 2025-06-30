@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:38 (add_executable):
+  add_executable cannot create target "simple_controller" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/ubuntu/rover_ws/src/halleffect_controller".  See documentation for
+  policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at CMakeLists.txt:57 (install):
+  install TARGETS given target "noisy_controller" which does not exist.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

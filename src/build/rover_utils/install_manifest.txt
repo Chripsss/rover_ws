@@ -1,0 +1,16 @@
+/home/ubuntu/rover_ws/src/install/rover_utils/lib/rover_utils/trajectory_drawer
+/home/ubuntu/rover_ws/src/install/rover_utils/share/ament_index/resource_index/package_run_dependencies/rover_utils
+/home/ubuntu/rover_ws/src/install/rover_utils/share/ament_index/resource_index/parent_prefix_path/rover_utils
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/environment/ament_prefix_path.sh
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/environment/ament_prefix_path.dsv
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/environment/path.sh
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/environment/path.dsv
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/local_setup.bash
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/local_setup.sh
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/local_setup.zsh
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/local_setup.dsv
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/package.dsv
+/home/ubuntu/rover_ws/src/install/rover_utils/share/ament_index/resource_index/packages/rover_utils
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/cmake/rover_utilsConfig.cmake
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/cmake/rover_utilsConfig-version.cmake
+/home/ubuntu/rover_ws/src/install/rover_utils/share/rover_utils/package.xml

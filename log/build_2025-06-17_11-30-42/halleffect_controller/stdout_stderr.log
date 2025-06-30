@@ -1,0 +1,29 @@
+[100%] Built target simple_controller
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller/simple_controller.hpp
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/lib/halleffect_controller/simple_controller
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/gz_bridge.yaml
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/joy_config.yaml
+-- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/halleffect_controller.yaml
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/joy_teleop.yaml
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch/joystick_teleop.launch.py
+-- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch/controller.launch.py
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/package_run_dependencies/halleffect_controller
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/parent_prefix_path/halleffect_controller
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.bash
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.zsh
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.dsv
+-- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/packages/halleffect_controller
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.xml

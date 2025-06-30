@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/ubuntu/rover_ws/build/halleffect_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16
+[0.025s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.153s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.154s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.170s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.176s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.315s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.323s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.333s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.349s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.409s] -- Configured cppcheck include dirs: /home/ubuntu/rover_ws/src/halleffect_controller/include
+[0.409s] -- Configured cppcheck exclude dirs and/or files: 
+[0.410s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.410s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.411s] -- Added test 'lint_cmake' to check CMake code style
+[0.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.417s] -- Added test 'uncrustify' to check C / C++ code style
+[0.417s] -- Configured uncrustify additional arguments: 
+[0.418s] -- Added test 'xmllint' to check XML markup files
+[0.418s] -- Configuring done (0.4s)
+[0.425s] -- Generating done (0.0s)
+[0.427s] -- Build files have been written to: /home/ubuntu/rover_ws/build/halleffect_controller
+[0.461s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[6.814s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[7.024s] [100%] Built target simple_controller
+[7.030s] Invoked command in '/home/ubuntu/rover_ws/build/halleffect_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16
+[7.031s] Invoking command in '/home/ubuntu/rover_ws/build/halleffect_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/halleffect_controller
+[7.036s] -- Install configuration: ""
+[7.036s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include
+[7.036s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller
+[7.036s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/include/include/halleffect_controller/simple_controller.hpp
+[7.082s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/lib/halleffect_controller/simple_controller
+[7.090s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/halleffect_controller/lib/halleffect_controller/simple_controller" to ""
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/config/halleffect_controller.yaml
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/launch/controller.launch.py
+[7.090s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/package_run_dependencies/halleffect_controller
+[7.090s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/parent_prefix_path/halleffect_controller
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.sh
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/ament_prefix_path.dsv
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.sh
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/environment/path.dsv
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.bash
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.sh
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.zsh
+[7.090s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/local_setup.dsv
+[7.090s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.dsv
+[7.091s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/ament_index/resource_index/packages/halleffect_controller
+[7.091s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig.cmake
+[7.091s] -- Up-to-date: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/cmake/halleffect_controllerConfig-version.cmake
+[7.091s] -- Installing: /home/ubuntu/rover_ws/install/halleffect_controller/share/halleffect_controller/package.xml
+[7.092s] Invoked command in '/home/ubuntu/rover_ws/build/halleffect_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/halleffect_controller

@@ -1,0 +1,39 @@
+[0.076s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/rover_localization
+[3.979s] -- The C compiler identification is GNU 13.3.0
+[4.380s] -- The CXX compiler identification is GNU 13.3.0
+[4.578s] -- Detecting C compiler ABI info
+[4.905s] -- Detecting C compiler ABI info - done
+[4.912s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.913s] -- Detecting C compile features
+[4.913s] -- Detecting C compile features - done
+[5.003s] -- Detecting CXX compiler ABI info
+[5.154s] -- Detecting CXX compiler ABI info - done
+[5.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.160s] -- Detecting CXX compile features
+[5.160s] -- Detecting CXX compile features - done
+[5.291s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.482s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.765s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.011s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.083s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.514s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.542s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.031s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.097s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.315s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[7.326s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[7.533s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.657s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[7.657s]   ament_python_install_package() the Python package folder
+[7.657s]   '/home/ubuntu/rover_ws/src/rover_localization/rover_localization' doesn't
+[7.657s]   contain an '__init__.py' file
+[7.657s] Call Stack (most recent call first):
+[7.657s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[7.657s]   CMakeLists.txt:24 (ament_python_install_package)
+[7.657s] 
+[7.657s] [0m
+[7.657s] -- Configuring incomplete, errors occurred!
+[7.663s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/rover_localization

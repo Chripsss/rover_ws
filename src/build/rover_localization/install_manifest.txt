@@ -1,0 +1,15 @@
+/home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+/home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/path.sh
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/environment/path.dsv
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.bash
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.sh
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.zsh
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/local_setup.dsv
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/package.dsv
+/home/ubuntu/rover_ws/src/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+/home/ubuntu/rover_ws/src/install/rover_localization/share/rover_localization/package.xml

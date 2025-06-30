@@ -1,0 +1,5 @@
+- ros_topic_name: /trajectory_drawer
+  gz_topic_name: /model/rover/trajectory_drawer
+  ros_type_name: nav_msgs/msg/Path
+  gz_type_name: gz.msgs.Path
+  direction: GZ_TO_ROS

@@ -1,0 +1,2 @@
+[0.011s] Invoking command in '/home/ubuntu/rover_ws/build/rover_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_utils -- -j16 -l16
+[0.047s] [100%] Built target trajectory_drawer

@@ -1,0 +1,45 @@
+[0.014s] Invoking command in '/home/ubuntu/rover_ws/build/halleffect_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.166s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.166s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.182s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.238s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.239s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.315s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.323s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.332s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.347s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.362s] -- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)
+[0.364s] -- Found tf2_ros: 0.36.10 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.431s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.494s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.494s] -- Configured cppcheck include dirs: /home/ubuntu/rover_ws/src/halleffect_controller/include
+[0.494s] -- Configured cppcheck exclude dirs and/or files: 
+[0.495s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.495s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.497s] -- Added test 'lint_cmake' to check CMake code style
+[0.498s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.503s] -- Added test 'uncrustify' to check C / C++ code style
+[0.503s] -- Configured uncrustify additional arguments: 
+[0.504s] -- Added test 'xmllint' to check XML markup files
+[0.504s] -- Configuring done (0.5s)
+[0.514s] -- Generating done (0.0s)
+[0.517s] -- Build files have been written to: /home/ubuntu/rover_ws/build/halleffect_controller
+[0.541s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.546s] In file included from [01m[K/home/ubuntu/rover_ws/src/halleffect_controller/src/noisy_controller.cpp:1[m[K:
+[0.546s] [01m[K/home/ubuntu/rover_ws/src/halleffect_controller/include/halleffect_controller/noisy_controller.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.546s]     4 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.546s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.547s] compilation terminated.
+[0.547s] gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+[0.547s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noisy_controller.dir/all] Error 2
+[0.547s] gmake[1]: *** Waiting for unfinished jobs....
+[0.550s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[7.954s] [ 75%] [32m[1mLinking CXX executable simple_controller[0m
+[8.224s] [ 75%] Built target simple_controller
+[8.225s] gmake: *** [Makefile:146: all] Error 2
+[8.226s] Invoked command in '/home/ubuntu/rover_ws/build/halleffect_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/halleffect_controller -- -j16 -l16

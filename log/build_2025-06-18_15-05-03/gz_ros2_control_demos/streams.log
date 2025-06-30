@@ -1,0 +1,143 @@
+[0.014s] Invoking command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/gz_ros2_control_demos
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.094s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.222s] -- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.223s] -- Compiler warnings enabled for GNU
+[0.223s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.225s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.410s] -- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.449s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.460s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.611s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.649s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.725s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.741s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.792s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.808s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.883s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.885s] -- Configured cppcheck include dirs: 
+[0.885s] -- Configured cppcheck exclude dirs and/or files: 
+[0.886s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.886s] -- Configured cpplint exclude dirs and/or files: 
+[0.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.887s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.888s] -- Added test 'lint_cmake' to check CMake code style
+[0.888s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.890s] -- Added test 'uncrustify' to check C / C++ code style
+[0.890s] -- Configured uncrustify additional arguments: 
+[0.891s] -- Added test 'xmllint' to check XML markup files
+[0.892s] -- Configuring done (0.9s)
+[0.912s] -- Generating done (0.0s)
+[0.919s] -- Build files have been written to: /home/ubuntu/rover_ws/build/gz_ros2_control_demos
+[0.927s] Invoked command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/gz_ros2_control_demos
+[0.927s] Invoking command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/gz_ros2_control_demos -- -j16 -l16
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[0.959s] [ 50%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[4.076s] [ 57%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[4.106s] [ 64%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[4.235s] [ 71%] [32m[1mLinking CXX executable example_diff_drive[0m
+[4.235s] [ 71%] Built target example_tricycle_drive
+[4.235s] [ 71%] Built target example_ackermann_drive
+[4.360s] [ 78%] [32m[1mLinking CXX executable example_gripper[0m
+[4.365s] [ 78%] Built target example_diff_drive
+[4.482s] [ 78%] Built target example_gripper
+[4.857s] [ 85%] [32m[1mLinking CXX executable example_effort[0m
+[4.892s] [ 92%] [32m[1mLinking CXX executable example_velocity[0m
+[4.898s] [100%] [32m[1mLinking CXX executable example_position[0m
+[4.993s] [100%] Built target example_effort
+[5.031s] [100%] Built target example_velocity
+[5.033s] [100%] Built target example_position
+[5.040s] Invoked command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/gz_ros2_control_demos -- -j16 -l16
+[5.041s] Invoking command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/gz_ros2_control_demos
+[5.046s] -- Install configuration: ""
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[5.046s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_diff_drive.xacro.sdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_ackermann_drive.xacro.sdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[5.047s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[5.048s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position" to ""
+[5.048s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[5.049s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity" to ""
+[5.049s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[5.050s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort" to ""
+[5.050s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[5.050s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive" to ""
+[5.050s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[5.051s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive" to ""
+[5.051s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+[5.051s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive" to ""
+[5.051s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[5.052s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper" to ""
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[5.052s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[5.053s] -- Installing: /home/ubuntu/rover_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[5.054s] Invoked command in '/home/ubuntu/rover_ws/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/rover_ws/install/gz_ros2_control:/home/ubuntu/rover_ws/install/urdf_tutorial_cpp:/home/ubuntu/rover_ws/install/rover_utils:/home/ubuntu/rover_ws/install/rover_description:/home/ubuntu/rover_ws/install/halleffect_controller:/home/ubuntu/ros2_ws/install/yahboom_rosmaster:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_system_tests:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_gazebo:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_description:/home/ubuntu/ros2_ws/install/yahboom_rosmaster_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/mecanum_drive_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/gz_ros2_control_demos

@@ -1,0 +1,4 @@
+source;share/halleffect_controller/local_setup.bash
+source;share/halleffect_controller/local_setup.dsv
+source;share/halleffect_controller/local_setup.sh
+source;share/halleffect_controller/local_setup.zsh
