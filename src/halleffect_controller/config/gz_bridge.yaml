@@ -28,6 +28,12 @@
   gz_type_name: gz.msgs.IMU
   direction: GZ_TO_ROS
 
+- ros_topic_name: /imu_out
+  gz_topic_name: /model/rover/imu
+  ros_type_name: sensor_msgs/msg/Imu
+  gz_type_name: gz.msgs.IMU
+  direction: GZ_TO_ROS
+
 - ros_topic_name: /trajectory_drawer
   gz_topic_name: /model/rover/trajectory_drawer
   ros_type_name: nav_msgs/msg/Path
@@ -38,7 +44,7 @@
   gz_topic_name: /model/rover/odometry_filtered
   ros_type_name: nav_msgs/msg/Odometry
   gz_type_name: gz.msgs.Odometry
-  direction: GZ_TO_ROS
+  direction: ROS_TO_GZ
 
 - ros_topic_name: /halleffect_controller/odom_noisy
   gz_topic_name: /model/rover/halleffect_controller/odom_noisy

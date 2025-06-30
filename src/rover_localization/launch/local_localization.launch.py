@@ -44,10 +44,16 @@ def generate_launch_description():
         condition=UnlessCondition(use_python),
     )
 
+    kalman_filter = Node(
+    package="rover_localization",
+    executable="kalman_filter",
+)
+
     return LaunchDescription([
         use_python_arg,
         static_transform_publisher,
         robot_localization,
         imu_republisher_py,
-        imu_republisher_cpp,   
+        imu_republisher_cpp,
+        kalman_filter   
     ])
