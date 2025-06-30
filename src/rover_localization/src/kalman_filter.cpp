@@ -3,7 +3,8 @@
 using std::placeholders::_1;
 
 
-KalmanFilter::KalmanFilter(const std::string& name): Node(name),
+KalmanFilter::KalmanFilter(const std::string& name)
+    : Node(name),
     mean_(0.0),
     variance_(1000.0),
     motion_variance_(4.0),
@@ -13,9 +14,9 @@ KalmanFilter::KalmanFilter(const std::string& name): Node(name),
     last_angular_z_(0.0),
     imu_angular_z_(0.0)
 {
-  odom_sub_ = create_subscription<nav_msgs::msg::Odometry>("rover_controller/odom_noisy", 10, std::bind(&KalmanFilter::odomCallback, this, _1));
+  odom_sub_ = create_subscription<nav_msgs::msg::Odometry>("halleffect_controller/odom_noisy", 10, std::bind(&KalmanFilter::odomCallback, this, _1));
   imu_sub_ = create_subscription<sensor_msgs::msg::Imu>("imu/out", 1000, std::bind(&KalmanFilter::imuCallback, this, _1));
-  odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("rover_controller/odom_kalman", 10);
+  odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("halleffect_controller/odom_kalman", 10);
 }
 
 
