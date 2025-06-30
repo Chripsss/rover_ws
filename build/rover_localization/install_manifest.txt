@@ -1,7 +1,7 @@
 /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization/kalman_filter.hpp
 /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter
 /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/imu_republisher
-/home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.py
+/home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.launch.py
 /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config/ekf.yaml
 /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
 /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization

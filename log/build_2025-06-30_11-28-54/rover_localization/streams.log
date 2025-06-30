@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.049s] [ 75%] Built target imu_republisher
+[6.428s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[7.101s] [100%] Built target kalman_filter
+[7.107s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[7.107s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization
+[7.113s] -- Install configuration: ""
+[7.113s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include
+[7.113s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization
+[7.113s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization/kalman_filter.hpp
+[7.113s] -- Installing: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter
+[7.116s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter" to ""
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/imu_republisher
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.py
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config/ekf.yaml
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.sh
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.dsv
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.bash
+[7.116s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.sh
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.zsh
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.dsv
+[7.117s] -- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.dsv
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+[7.117s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.xml
+[7.118s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization
