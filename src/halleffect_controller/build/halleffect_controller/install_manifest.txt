@@ -1,8 +1,11 @@
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/include/include/halleffect_controller/simple_controller.hpp
+/home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/include/include/halleffect_controller/noisy_controller.hpp
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/lib/halleffect_controller/simple_controller
+/home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/lib/halleffect_controller/noisy_controller
+/home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/config/gz_bridge.yaml
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/config/joy_config.yaml
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/config/halleffect_controller.yaml
-/home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/config/joy_teleop.yaml
+/home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/config/teleop_twist_joy.yaml
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/launch/joystick_teleop.launch.py
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/halleffect_controller/launch/controller.launch.py
 /home/ubuntu/rover_ws/src/halleffect_controller/install/halleffect_controller/share/ament_index/resource_index/package_run_dependencies/halleffect_controller

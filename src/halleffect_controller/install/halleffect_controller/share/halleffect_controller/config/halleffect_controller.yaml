@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
     update_rate: 100
-    use_sim_time: true
+    use_sim_time: true 
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -25,7 +25,7 @@ halleffect_controller:
     type: diff_drive_controller/DiffDriveController
     use_stamped_vel: true
     left_wheel_names: ['front_left_wheel_joint']
-    ight_wheel_names: ['front_right_wheel_joint']
+    right_wheel_names: ['front_right_wheel_joint']
     publish_rate: 50.0
     pose_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
     twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
@@ -38,6 +38,7 @@ halleffect_controller:
 
     cmd_vel_timeout: 0.25
     base_frame_id: base_footprint
+    odom_frame_id: odom
     publish_limited_velocity: true
     publish_wheel_data: true
     enable_odom_tf: true
