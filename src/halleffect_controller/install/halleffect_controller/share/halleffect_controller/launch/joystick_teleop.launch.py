@@ -15,10 +15,16 @@ def generate_launch_description():
     )
 
     joy_teleop = Node(
-        package="joy_teleop",
-        executable="joy_teleop",
-        parameters=[os.path.join(get_package_share_directory("halleffect_controller"), "config", "joy_teleop.yaml"),
-                    {"use_sim_time": LaunchConfiguration("use_sim_time")}],
+        package='joy_teleop',
+        executable='teleop_node',
+        name='joy_teleop',
+        parameters=[
+            os.path.join(
+                get_package_share_directory("halleffect_controller"),
+                "config", "joy_teleop.yaml"
+            ),
+            {"use_sim_time": LaunchConfiguration("use_sim_time")}
+        ]
     )
 
     joy_node = Node(

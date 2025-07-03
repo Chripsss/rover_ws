@@ -1,0 +1,31 @@
+[0.372s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[2.803s] [100%] Built target kalman_filter
+[2.803s] [100%] Built target imu_republisher
+[2.968s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_localization -- -j16 -l16
+[3.071s] Invoking command in '/home/ubuntu/rover_ws/build/rover_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization
+[3.115s] -- Install configuration: ""
+[3.130s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include
+[3.141s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization
+[3.150s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/include/include/rover_localization/kalman_filter.hpp
+[3.241s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/kalman_filter
+[3.297s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/lib/rover_localization/imu_republisher
+[3.302s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch
+[3.329s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/launch/local_localization.launch.py
+[3.329s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config
+[3.333s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/config/ekf.yaml
+[3.335s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+[3.335s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+[3.335s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.sh
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/environment/path.dsv
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.bash
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.sh
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.zsh
+[3.338s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/local_setup.dsv
+[3.339s] -- Installing: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.dsv
+[3.361s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+[3.362s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+[3.362s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+[3.362s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_localization/share/rover_localization/package.xml
+[3.366s] Invoked command in '/home/ubuntu/rover_ws/build/rover_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_localization
