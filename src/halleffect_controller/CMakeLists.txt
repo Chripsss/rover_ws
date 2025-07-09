@@ -46,7 +46,11 @@ ament_target_dependencies(noisy_controller
   tf2_ros
 )
 
-
+add_executable(joystick_republisher src/joystick_republisher.cpp)
+ament_target_dependencies(joystick_republisher
+ rclcpp 
+ geometry_msgs
+ )
 
 install(
   DIRECTORY include 
@@ -57,6 +61,7 @@ install(
 install (TARGETS 
   simple_controller
   noisy_controller
+  joystick_republisher
   DESTINATION lib/${PROJECT_NAME}
 
 )

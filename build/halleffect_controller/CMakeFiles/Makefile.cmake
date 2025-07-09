@@ -919,4 +919,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/halleffect_controller_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_controller.dir/DependInfo.cmake"
   "CMakeFiles/noisy_controller.dir/DependInfo.cmake"
+  "CMakeFiles/joystick_republisher.dir/DependInfo.cmake"
   )

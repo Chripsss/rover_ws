@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/rover_ws/build/halleffect_controller
 # The main recursive "all" target.
 all: CMakeFiles/simple_controller.dir/all
 all: CMakeFiles/noisy_controller.dir/all
+all: CMakeFiles/joystick_republisher.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/halleffect_controller_uninstall.dir/clean
 clean: CMakeFiles/simple_controller.dir/clean
 clean: CMakeFiles/noisy_controller.dir/clean
+clean: CMakeFiles/joystick_republisher.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/halleffect_controller_uninstall.dir/clean:
 CMakeFiles/simple_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles --progress-num=3,4 "Built target simple_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles --progress-num=5,6 "Built target simple_controller"
 .PHONY : CMakeFiles/simple_controller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/simple_controller.dir/clean:
 CMakeFiles/noisy_controller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles --progress-num=1,2 "Built target noisy_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles --progress-num=3,4 "Built target noisy_controller"
 .PHONY : CMakeFiles/noisy_controller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ noisy_controller: CMakeFiles/noisy_controller.dir/rule
 CMakeFiles/noisy_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/clean
 .PHONY : CMakeFiles/noisy_controller.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/joystick_republisher.dir
+
+# All Build rule for target.
+CMakeFiles/joystick_republisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles --progress-num=1,2 "Built target joystick_republisher"
+.PHONY : CMakeFiles/joystick_republisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/joystick_republisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joystick_republisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rover_ws/build/halleffect_controller/CMakeFiles 0
+.PHONY : CMakeFiles/joystick_republisher.dir/rule
+
+# Convenience name for target.
+joystick_republisher: CMakeFiles/joystick_republisher.dir/rule
+.PHONY : joystick_republisher
+
+# clean rule for target.
+CMakeFiles/joystick_republisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/clean
+.PHONY : CMakeFiles/joystick_republisher.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

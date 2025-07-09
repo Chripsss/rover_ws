@@ -1,5 +1,7 @@
 /home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/uninstall.dir
 /home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/rover_localization_uninstall.dir
+/home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/kalman_filter.dir
+/home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/imu_republisher.dir
 /home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/test.dir
 /home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/edit_cache.dir
 /home/ubuntu/rover_ws/src/build/rover_localization/CMakeFiles/rebuild_cache.dir

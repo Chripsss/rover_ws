@@ -223,6 +223,43 @@ noisy_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/noisy_controller.dir/build.make CMakeFiles/noisy_controller.dir/build
 .PHONY : noisy_controller/fast
 
+#=============================================================================
+# Target rules for targets named joystick_republisher
+
+# Build rule for target.
+joystick_republisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joystick_republisher
+.PHONY : joystick_republisher
+
+# fast build rule for target.
+joystick_republisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/build
+.PHONY : joystick_republisher/fast
+
+src/joystick_republisher.o: src/joystick_republisher.cpp.o
+.PHONY : src/joystick_republisher.o
+
+# target to build an object file
+src/joystick_republisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/src/joystick_republisher.cpp.o
+.PHONY : src/joystick_republisher.cpp.o
+
+src/joystick_republisher.i: src/joystick_republisher.cpp.i
+.PHONY : src/joystick_republisher.i
+
+# target to preprocess a source file
+src/joystick_republisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/src/joystick_republisher.cpp.i
+.PHONY : src/joystick_republisher.cpp.i
+
+src/joystick_republisher.s: src/joystick_republisher.cpp.s
+.PHONY : src/joystick_republisher.s
+
+# target to generate assembly for a file
+src/joystick_republisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joystick_republisher.dir/build.make CMakeFiles/joystick_republisher.dir/src/joystick_republisher.cpp.s
+.PHONY : src/joystick_republisher.cpp.s
+
 src/noisy_controller.o: src/noisy_controller.cpp.o
 .PHONY : src/noisy_controller.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... halleffect_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... joystick_republisher"
 	@echo "... noisy_controller"
 	@echo "... simple_controller"
+	@echo "... src/joystick_republisher.o"
+	@echo "... src/joystick_republisher.i"
+	@echo "... src/joystick_republisher.s"
 	@echo "... src/noisy_controller.o"
 	@echo "... src/noisy_controller.i"
 	@echo "... src/noisy_controller.s"

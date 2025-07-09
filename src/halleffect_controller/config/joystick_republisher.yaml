@@ -1,0 +1,5 @@
+joystick_republisher:
+  ros__parameters:
+    input_topic: /cmd_vel
+    output_topic: /halleffect_controller/cmd_vel
+    use_sim_time: true
