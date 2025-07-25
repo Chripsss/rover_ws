@@ -4,8 +4,7 @@
 
 using std::placeholders::_1;
 
-SimpleController::SimpleController(const std::string & name)
-    : Node(name)
+SimpleController::SimpleController(const std::string & name)  : Node(name)
     , left_wheel_prev_pos_(0.0)
     , right_wheel_prev_pos_(0.0)
     , x_(0.0)

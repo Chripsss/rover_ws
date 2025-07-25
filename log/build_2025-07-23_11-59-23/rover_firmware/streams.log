@@ -1,0 +1,27 @@
+[0.148s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[1.148s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[7.869s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[9.167s] [100%] Built target simple_serial_transmitter
+[9.175s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[9.198s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware
+[9.216s] -- Install configuration: ""
+[9.216s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+[9.216s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+[9.236s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+[9.248s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter" to ""
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/package_run_dependencies/rover_firmware
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/parent_prefix_path/rover_firmware
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.sh
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.dsv
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.sh
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.dsv
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.bash
+[9.248s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.sh
+[9.249s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.zsh
+[9.249s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.dsv
+[9.249s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.dsv
+[9.262s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/packages/rover_firmware
+[9.262s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig.cmake
+[9.262s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig-version.cmake
+[9.262s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.xml
+[9.264s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware

@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/rover_ws/build/rover_firmware
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter" to ""
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find "/home/ubuntu/rover_ws/src/rover_firmware/launch":
+  No such file or directory.
+
+[0m

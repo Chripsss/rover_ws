@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/rover_ws/build/rover_firmware
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/package_run_dependencies/rover_firmware
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/parent_prefix_path/rover_firmware
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.sh
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.bash
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.sh
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.zsh
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/packages/rover_firmware
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig.cmake
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig-version.cmake
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.xml

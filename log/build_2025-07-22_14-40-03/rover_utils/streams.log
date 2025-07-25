@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/ubuntu/rover_ws/build/rover_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_utils -- -j16 -l16
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_drawer.dir/src/trajectory_drawer.cpp.o[0m
+[11.080s] [100%] [32m[1mLinking CXX executable trajectory_drawer[0m
+[12.447s] [100%] Built target trajectory_drawer
+[12.454s] Invoked command in '/home/ubuntu/rover_ws/build/rover_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_utils -- -j16 -l16
+[12.455s] Invoking command in '/home/ubuntu/rover_ws/build/rover_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_utils
+[12.461s] -- Install configuration: ""
+[12.461s] -- Installing: /home/ubuntu/rover_ws/install/rover_utils/lib/rover_utils/trajectory_drawer
+[12.464s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_utils/lib/rover_utils/trajectory_drawer" to ""
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/ament_index/resource_index/package_run_dependencies/rover_utils
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/ament_index/resource_index/parent_prefix_path/rover_utils
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/environment/ament_prefix_path.sh
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/environment/ament_prefix_path.dsv
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/environment/path.sh
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/environment/path.dsv
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/local_setup.bash
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/local_setup.sh
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/local_setup.zsh
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/local_setup.dsv
+[12.464s] -- Installing: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/package.dsv
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/ament_index/resource_index/packages/rover_utils
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/cmake/rover_utilsConfig.cmake
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/cmake/rover_utilsConfig-version.cmake
+[12.464s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_utils/share/rover_utils/package.xml
+[12.465s] Invoked command in '/home/ubuntu/rover_ws/build/rover_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_utils

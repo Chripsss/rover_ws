@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.168s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.242s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.243s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.322s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.322s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.332s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.357s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.458s] -- Configuring done (0.4s)
+[0.532s] -- Generating done (0.0s)
+[0.534s] -- Build files have been written to: /home/ubuntu/rover_ws/build/rover_firmware
+[0.558s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[5.884s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[7.287s] [100%] Built target simple_serial_transmitter
+[7.294s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[7.295s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware
+[7.299s] -- Install configuration: ""
+[7.299s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+[7.299s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+[7.299s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+[7.301s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter" to ""
+[7.302s] [31mCMake Error at cmake_install.cmake:70 (file):
+[7.302s]   file INSTALL cannot find "/home/ubuntu/rover_ws/src/rover_firmware/launch":
+[7.302s]   No such file or directory.
+[7.302s] 
+[7.302s] [0m
+[7.302s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware

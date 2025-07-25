@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter" to ""
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/package_run_dependencies/rover_firmware
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/parent_prefix_path/rover_firmware
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.bash
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.sh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.zsh
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.dsv
+-- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.dsv
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/packages/rover_firmware
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.xml

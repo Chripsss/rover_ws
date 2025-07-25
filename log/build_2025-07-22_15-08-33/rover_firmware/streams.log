@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.246s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.325s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.325s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.337s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.365s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.432s] -- Configuring done (0.4s)
+[0.438s] -- Generating done (0.0s)
+[0.440s] -- Build files have been written to: /home/ubuntu/rover_ws/build/rover_firmware
+[0.475s] [100%] Built target simple_serial_transmitter
+[0.484s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/rover_ws/build/rover_firmware -- -j16 -l16
+[0.485s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware
+[0.490s] -- Install configuration: ""
+[0.490s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include
+[0.490s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/include/include/rover_firmware
+[0.490s] -- Up-to-date: /home/ubuntu/rover_ws/install/rover_firmware/lib/rover_firmware/simple_serial_transmitter
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/package_run_dependencies/rover_firmware
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/parent_prefix_path/rover_firmware
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.sh
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/ament_prefix_path.dsv
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.sh
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/environment/path.dsv
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.bash
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.sh
+[0.491s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.zsh
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/local_setup.dsv
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.dsv
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/ament_index/resource_index/packages/rover_firmware
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig.cmake
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/cmake/rover_firmwareConfig-version.cmake
+[0.492s] -- Installing: /home/ubuntu/rover_ws/install/rover_firmware/share/rover_firmware/package.xml
+[0.493s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/rover_ws/build/rover_firmware

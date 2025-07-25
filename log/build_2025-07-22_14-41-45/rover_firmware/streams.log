@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/ubuntu/rover_ws/build/rover_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/rover_firmware
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.172s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.301s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.344s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.344s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.365s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.365s]   By not providing "Findlibserial.cmake" in CMAKE_MODULE_PATH this project
+[0.365s]   has asked CMake to find a package configuration file provided by
+[0.365s]   "libserial", but CMake did not find one.
+[0.365s] 
+[0.365s]   Could not find a package configuration file provided by "libserial" with
+[0.365s]   any of the following names:
+[0.365s] 
+[0.365s]     libserialConfig.cmake
+[0.365s]     libserial-config.cmake
+[0.365s] 
+[0.365s]   Add the installation prefix of "libserial" to CMAKE_PREFIX_PATH or set
+[0.365s]   "libserial_DIR" to a directory containing one of the above files.  If
+[0.365s]   "libserial" provides a separate development package or SDK, be sure it has
+[0.365s]   been installed.
+[0.365s] 
+[0.365s] [0m
+[0.365s] -- Configuring incomplete, errors occurred!
+[0.369s] Invoked command in '/home/ubuntu/rover_ws/build/rover_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/rover_ws/src/rover_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rover_ws/install/rover_firmware

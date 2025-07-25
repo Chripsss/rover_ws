@@ -19,7 +19,7 @@ def generate_launch_description():
         package="tf2_ros",
         executable="static_transform_publisher",
         arguments=["--x", "0", "--y", "0","--z", "0.103",
-                   "--qx", "1", "--qy", "0", "--qz", "0", "--qw", "0",
+                   "--qx", "0", "--qy", "0", "--qz", "0", "--qw", "1",
                    "--frame-id", "base_footprint_ekf",
                    "--child-frame-id", "imu_link_ekf"],
     )
@@ -29,7 +29,7 @@ def generate_launch_description():
         executable="ekf_node",
         name="ekf_filter_node",
         output="screen",
-        parameters=["/home/ubuntu/rover_ws/src/rover_localization/config/ekf.yaml"],
+        parameters=[os.path.join(get_package_share_directory("rover_localization"), "config", "ekf.yaml")],
     )
 
     imu_republisher_py = Node(
@@ -44,10 +44,17 @@ def generate_launch_description():
         condition=UnlessCondition(use_python),
     )
 
+    kalman_filter = Node(
+        package="rover_localization",
+        executable="kalman_filter",
+        output="screen",
+    )
+
     return LaunchDescription([
         use_python_arg,
         static_transform_publisher,
         robot_localization,
         imu_republisher_py,
         imu_republisher_cpp,
+        kalman_filter
     ])
